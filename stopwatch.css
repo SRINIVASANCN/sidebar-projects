@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height:100vh ;
+    justify-content: center;
+    align-items: center;
+    background-image: url('stopwatch.jpg');
+}
+.main-container{
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: azure;
+}
+button{
+    font-size: 3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#display{
+    font-size: 3rem;
+    
+}
+h1{
+    text-align: center;
+}
+
+#start-btn{
+    background-color: hsl(115, 100%, 40%);
+}
+#start-btn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+#stop-btn{
+    background-color: hsl(10, 90%, 50%);
+}
+#stop-btn:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+#reset-btn{
+    background-color: hsl(205, 90%, 60%);
+}
+#reset-btn:hover{
+    background-color: hsl(205, 90%, 50%);
+}
